@@ -444,6 +444,17 @@ docs = ["furo", "olefile", "sphinx (>=2.4)", "sphinx-copybutton", "sphinx-inline
 tests = ["check-manifest", "coverage", "defusedxml", "markdown2", "olefile", "packaging", "pyroma", "pytest", "pytest-cov", "pytest-timeout"]
 
 [[package]]
+name = "pygraphviz"
+version = "1.10"
+description = "Python interface to Graphviz"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "pygraphviz-1.10.zip", hash = "sha256:457e093a888128903251a266a8cc16b4ba93f3f6334b3ebfed92c7471a74d867"},
+]
+
+[[package]]
 name = "pyparsing"
 version = "3.0.9"
 description = "pyparsing module - Classes and methods to define and execute parsing grammars"
@@ -515,4 +526,4 @@ mpmath = ">=0.19"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "27d4f8a7627403bd07277f6f19947a2477e8613b0f00dcffd974c91893f9e178"
+content-hash = "3534279e5fdcb65caa1ea4357ce225af4b2a293756ac2e447f7292e1b64b3bc5"
